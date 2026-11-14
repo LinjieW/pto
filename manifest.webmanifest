@@ -9,8 +9,40 @@
   "background_color": "#EAE7E1",
   "theme_color": "#EAE7E1",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今天",
+      "short_name": "今天",
+      "url": "./?go=today"
+    },
+    {
+      "name": "和 Workday 对账",
+      "short_name": "对账",
+      "url": "./?go=recon"
+    },
+    {
+      "name": "看明年",
+      "short_name": "明年",
+      "url": "./?go=next"
+    }
   ]
 }
